@@ -29,3 +29,38 @@ window.onload = function(){
         })
     }
 }
+
+const closebutton = document.querySelector('.menu__close');
+const lastitem = document.querySelector('.menu__item:firstItem');
+
+closebutton.addEventListener('keydown',(e) => {
+    if (e.keycode === 9) {
+        e.preventDefault();
+        firstItem.focus();
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const focusGuard = document.querySelector('#focusguard');
+// const closeButton = document.querySelector('.menu__close')
+// const firstItem = document.querySelector('.menu__item:first-child a');
+
+
+// closeButton.addEventListener('keydown', (e) => {
+//     if (e.keycode === 9){
+//     e.preventDefault();
+//     firstItem.focus();
+//     }
+//   });

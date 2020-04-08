@@ -21,7 +21,8 @@
         <nav class="menuNav" id="menuNav" aria-labelledby="menuTitle">
             <h2 class="a11yHidden" id="menuTitle">메인메뉴</h2>
             <ul class="menu__list rsList">
-                <li class="menu__item">
+                
+                 <li class="menu__item" >
                     <a href="#">메뉴</a>
                 </li>
                 <li class="menu__item">
@@ -36,9 +37,10 @@
                 <li class="menu__item">
                     <a href="#">공지사항</a>
                 </li>
-                <li class="menu__item">
+                <li class="menu__item last-item">
                     <a href="#">매장찾기</a>
                 </li>
+                
             </ul>
             <button class="menu__close rsBtn" aria-label="메뉴닫기" title="메뉴닫기">
                 <span class="x__bar bar__left"></span>
@@ -57,12 +59,12 @@
                             <figcaption>ICED 벚꽃라떼</figcaption>
                         </figure>
                     </a>
-                    <div id="drinkDialog1" class="drink__dialog" role="dialog" aria-modal="true">
+                    <div id="drinkDialog1" class="drink__dialog" role="dialog" >
                         <div class="dialog__heading">
-                            <h3>ICED 벚꽃라떼<span class="enTitle">Cherry Blossom Latte</span></h3>
-                            <p>은은한 벚꽃향과 라즈베리 화이트 초콜릿 토핑이 올라간 핑크빛 라떼</p>
+                            <h3>ICED 벚꽃라떼<span class="enTitle" >Cherry Blossom Latte</span></h3>
+                            <p role="presentation" tabindex="1">은은한 벚꽃향과 라즈베리 화이트 초콜릿 토핑이 올라간 핑크빛 라떼</p>
                         </div>
-                        <dl class="drink__table">
+                        <dl class="drink__table"tabindex="1">
                             <dt>칼로리</dt>
                             <dd>(393kcal)</dd>
                             <dt>포화지방</dt>
