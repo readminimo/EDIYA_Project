@@ -113,6 +113,9 @@ main {
 
 
 @media screen and (min-width:560px) {
+    .drink__menu {
+        max-width: 400px;
 
+    }
 }
 
