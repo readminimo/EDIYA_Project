@@ -1,0 +1,118 @@
+/* reset layout / 리셋 */
+
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.rs {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.a11y-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    clip-path: circle(0);
+}
+
+
+/* header 헤더 */
+
+.header {
+
+}
+
+.brandLogo {
+    padding: 10px;
+
+}
+
+
+/* 상단 메뉴 */
+.menu__open {
+    
+    /* background-color:blue; */
+    border-style: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 30px;
+}
+
+.burger__bar {
+    display: block;
+    background-color: #a9a9a9;
+    border-radius: 2px;
+    height: 5px;
+    margin-top:5px;
+}
+
+
+.menu__list {
+    background-color: blanchedalmond;
+    display: none;
+} 
+
+.menu__items{
+ list-style: none;
+
+}
+
+
+
+.menu__close {
+    display: none;
+}
+
+/* 메인 */
+main {
+    background-color: tomato;
+}
+
+
+.main__heading {
+    
+}
+.main__drink {
+    display: inline-block;
+    padding: 0 0px;
+    
+}
+.main__drinklist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.drink__menu {
+    display: inline-block;
+    
+    list-style: none;
+
+}
+
+@media screen and (max-width:559px) {
+
+}
+
+
+@media screen and (min-width:560px) {
+
+}
+
