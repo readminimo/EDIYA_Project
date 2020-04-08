@@ -32,44 +32,6 @@ window.onload = function(){
             e.stopPropagation();
         })
     }
-<<<<<<< HEAD
-}
-
-const closebutton = document.querySelector('.menu__close');
-const lastitem = document.querySelector('.menu__item:firstItem');
-
-closebutton.addEventListener('keydown',(e) => {
-    if (e.keycode === 9) {
-        e.preventDefault();
-        firstItem.focus();
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const focusGuard = document.querySelector('#focusguard');
-// const closeButton = document.querySelector('.menu__close')
-// const firstItem = document.querySelector('.menu__item:first-child a');
-
-
-// closeButton.addEventListener('keydown', (e) => {
-//     if (e.keycode === 9){
-//     e.preventDefault();
-//     firstItem.focus();
-//     }
-//   });
-=======
 
     // 메뉴안 영역 루프 
 
@@ -100,4 +62,3 @@ closebutton.addEventListener('keydown',(e) => {
         d.setAttribute('tabindex','0');
     }
 }
->>>>>>> c707c5cfcdc9bd7787ec2aa56997faf5c43cbe30
