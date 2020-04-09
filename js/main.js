@@ -1,6 +1,6 @@
 window.onload = function(){
-    var menuOpen = document.querySelector('.menu__open');
-    var menuClose = document.querySelector('.menu__close');
+    var menuOpen = document.querySelector('.header__menu--open');
+    var menuClose = document.querySelector('.header__menu--close');
     var menuNav = document.getElementById('menuNav');
     var drink__item = document.querySelectorAll('.drink__item');
     var drink__close = document.querySelectorAll('.drink__close');
