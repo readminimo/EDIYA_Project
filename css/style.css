@@ -130,6 +130,7 @@ a {
     height: 100vh;
     padding-top: 60px;
     color: #fff;
+    transform: translate(0,0);
     transition: all 1s;
     visibility: hidden;
     
@@ -182,20 +183,6 @@ main {
     padding-top: 80px;
 }
 /* drink-menu */
-
-
-.drink__item.close .drink__dialog {
-    visibility: hidden;
-    opacity: 0;
-    transition: all .6s;
-}
-
-.drink__item.open .drink__dialog {
-    visibility: initial;
-    opacity: 1;
-    transition: all .6s;
-
-}
 
 
 .drink__close {
@@ -299,6 +286,20 @@ main {
     color: #999;
     font-size: 0.8em;
     font-weight: 300;
+}
+
+
+.drink__item.close .drink__dialog {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .6s;
+}
+
+.drink__item.open .drink__dialog {
+    visibility: initial;
+    opacity: 1;
+    transition: all .6s;
+
 }
 
 
