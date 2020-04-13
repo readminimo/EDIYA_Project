@@ -4,11 +4,11 @@ window.onload = function(){
     var menuNav = document.getElementById('menuNav');
     var drink__item = document.querySelectorAll('.drink__item');
     var drink__close = document.querySelectorAll('.drink__close');
-    var focus__h3 = document.getElementsByTagName('h3');
-    var focus__p = document.getElementsByTagName('p');
-    var focus__dt = document.getElementsByTagName('dt');
-    var focus__dd = document.getElementsByTagName('dd');
     var menu__list = document.querySelector('.menu__list');
+    // var focus__h3 = document.getElementsByTagName('h3');
+    // var focus__p = document.getElementsByTagName('p');
+    // var focus__dt = document.getElementsByTagName('dt');
+    // var focus__dd = document.getElementsByTagName('dd');
 
     // 메뉴 슬라이드
     menuOpen.addEventListener('click', function (e) {
@@ -43,22 +43,22 @@ window.onload = function(){
     })
 
 
-    // tabIndex 추가
+    // tabIndex 추가 - 적절치않은 사용 
 
-    for(var a of focus__h3)
-    {
-        a.setAttribute('tabindex', '0');
-    }
+    // for(var a of focus__h3)
+    // {
+    //     a.setAttribute('tabindex', '0');
+    // }
 
-    for(var b of focus__p){
-        b.setAttribute('tabindex','0');
-    }
+    // for(var b of focus__p){
+    //     b.setAttribute('tabindex','0');
+    // }
 
-    for(var c of focus__dt){
-        c.setAttribute('tabindex','0');
-    }
+    // for(var c of focus__dt){
+    //     c.setAttribute('tabindex','0');
+    // }
 
-    for(var d of focus__dd){
-        d.setAttribute('tabindex','0');
-    }
+    // for(var d of focus__dd){
+    //     d.setAttribute('tabindex','0');
+    // }
 }
